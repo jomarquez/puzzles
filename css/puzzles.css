@@ -1,0 +1,24 @@
+td.check { 
+  background:url(../img/check2.png) no-repeat 0 50%;
+  background-position: center;
+}
+img.center { 
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto; 
+}
+[class*="foundicon-"]:after { 
+  position: relative;
+  top: -2px; 
+  left: 5px; 
+  font-style: normal; 
+}
+.foundicon-facebook:after { 
+  content: "Facebook";
+}
+.foundicon-twitter:after {
+  content: "Twitter";
+}
+.foundicon-foursquare:after {
+  content: "Foursquare";
+}   
